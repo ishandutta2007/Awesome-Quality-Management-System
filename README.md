@@ -29,67 +29,24 @@ Disclaimer
 
 SaaS/Hosted Platforms
 
-MasterControl
-Enterprise QMS platform for regulated industries covering document control, training, quality events, CAPA, audits, change control, complaints, supplier quality, and electronic quality records.
-
-Qualio
-Cloud QMS focused on quality documentation, training, document control, CAPA, audits, supplier management, and compliance workflows for regulated organizations.
-
-ETQ Reliance
-Enterprise quality management platform covering CAPA, nonconformance, audits, document control, supplier quality, complaints, risk, change management, and analytics.
-
-Greenlight Guru
-Medical-device-focused QMS supporting design controls, document management, risk management, CAPA, complaints, audits, supplier management, and regulatory compliance.
-
-Arena QMS
-Cloud quality and product lifecycle platform combining QMS capabilities with product and design data, change management, document control, supplier quality, and compliance workflows.
-
-QT9 QMS
-Quality management software covering document control, CAPA, nonconformance, audits, supplier management, corrective actions, training, and quality reporting.
-
-Intelex QMS
-Enterprise EHSQ/QMS platform supporting quality events, CAPA, audits, document control, training, risk, supplier management, and continuous improvement.
-
-Sparta TrackWise
-Enterprise quality-management platform for life sciences and regulated organizations covering quality events, CAPA, deviations, complaints, audits, change control, and regulatory workflows.
-
-AssurX
-Configurable quality and compliance management platform supporting CAPA, document control, audits, complaints, nonconformance, change management, and corrective actions.
-
-Qualis
-Quality management software designed to support document control, audits, CAPA, nonconformances, training, risk management, and quality workflows.
-
-Additional Notable SaaS / Hosted Platforms
-
-MasterControl — Comprehensive regulated-industry eQMS.
-
-Qualio — Cloud-first QMS for quality documentation and compliance.
-
-ETQ Reliance — Configurable enterprise QMS.
-
-Greenlight Guru — Medical-device quality management.
-
-Arena QMS — QMS integrated with product lifecycle management.
-
-QT9 QMS — Manufacturing-oriented QMS.
-
-Intelex QMS — QMS integrated with broader EHSQ management.
-
-TrackWise — Life-sciences quality management and quality-event workflows.
-
-AssurX — Configurable quality and compliance workflows.
-
-Qualis — QMS for document, CAPA, audit, and quality management.
-
-Ideagen Quality Management — Quality, audit, risk, and compliance management.
-
-Intellect QMS — Configurable no-code quality management workflows.
-
-Qualtrax — Quality, compliance, document control, training, and workflow management.
-
-ETQ Dossier — Document-centric quality management and controlled quality processes.
-
-Vivaldi — Quality and compliance workflow capabilities for regulated organizations.
+| Platform | Description & Core Focus | Starting Tier Pricing | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **MasterControl** | Enterprise QMS platform for regulated life sciences & manufacturing covering document control, training, quality events, CAPA, audits, change control, complaints, and supplier quality. | Starting at ~$25,000/year (~$2,083/month) for core starter edition | No free forever plan; 0-day self-serve trial (custom guided live sandbox demo on request) |
+| **Qualio** | Cloud-first QMS for medical devices, pharmaceuticals, and biotech covering quality documentation, training, CAPA, audits, and supplier workflows. | Starting at ~$12,000/year (~$1,000/month) for starter tier (up to 10 users) | No free forever plan; 0-day self-serve trial (custom sales-qualified sandbox walkthrough on request) |
+| **ETQ Reliance** | Configurable enterprise quality management platform covering CAPA, nonconformance, audits, document control, supplier quality, complaints, risk, and analytics. | Starting at ~$25,000/year (CCU concurrent user licensing model) | No free forever plan; 0-day self-serve trial (custom proof-of-concept environment on request) |
+| **Greenlight Guru** | Medical-device-focused QMS platform supporting design controls, document management, risk management (ISO 14971), CAPA, complaints, and audits. | Starting at ~$200/user/month (annual starting baseline ~$25,000/year) | No free forever plan; 0-day self-serve trial for core QMS (14-day trial available for Greenlight Guru Clinical EDC module) |
+| **Arena QMS** | Cloud quality and product lifecycle platform (PTC) combining QMS capabilities with product/BOM data, change management, document control, and supplier quality. | Starting at ~$100/user/month (~$1,200/user/year, Launch tier) | No free forever plan; 14-day free trial / guided pilot available upon sales registration |
+| **QT9 QMS** | Manufacturing and life-sciences QMS covering document control, CAPA, nonconformance, audits, supplier management, training, and reporting. | Starting at ~$1,700/year (~$142/month for base concurrent user tier) | 30-day full-featured free trial with no credit card required |
+| **Intelex QMS** | Enterprise EHSQ & quality management platform supporting quality events, CAPA, audits, document control, training, and continuous improvement. | Starting at $49/user/month (Essentials plan, 25 users minimum = $1,225/month) | 14-day free trial access pass with pre-loaded compliance dashboards |
+| **Sparta TrackWise** | Enterprise quality-management platform (Honeywell) for life sciences covering deviations, CAPA, complaints, audits, and change control. | Starting at ~$200/user/month (TrackWise Digital entry tier ~$24,000/year) | No free forever plan; 0-day self-serve trial (custom proof-of-value sandbox on request) |
+| **AssurX** | Configurable quality and regulatory compliance management platform supporting CAPA, document control, audits, complaints, and nonconformances. | Starting at ~$18,000/year (~$1,500/month for cloud entry tier) | No free forever plan; 0-day self-serve trial (tailored live demo on request) |
+| **Qualis** | Laboratory information and quality management software (Agaram Technologies) supporting ISO 17025/GxP document control, CAPA, and audits. | Starting at ~$8,300/year (~₹691,200/year for 5 users) | No free forever plan; 15-day evaluation trial upon request |
+| **Ideagen Quality Management** | Enterprise quality, audit, risk, and compliance management platform (formerly Q-Pulse) for aviation, healthcare, and manufacturing. | Starting at ~$19,500/year (~£15,720/year for base enterprise instance) | No free forever plan for full suite; 14-day free trial available for Ideagen Quality Control module |
+| **Intellect QMS** | Highly configurable no-code quality management software with AI tools for CAPA, audits, nonconformances, and document control. | Starting at ~$19,000/year (~$1,583/month for Pro starter edition) | No free forever plan; 14-day proof-of-concept sandbox access upon sales qualification |
+| **Qualtrax** | Quality, compliance, document control, training, and automated workflow management platform (Ideagen). | Starting at ~$15,000/year (~$1,250/month base compliance bundle) | No free forever plan; 0-day self-serve trial (guided sandbox walkthrough on request) |
+| **ETQ Dossier** | Document-centric quality management software for controlled quality procedures, SOPs, and compliance records. | Starting at ~$18,000/year (~$1,500/month for document control module) | No free forever plan; 0-day self-serve trial (sales-assisted demo on request) |
+| **Vivaldi QMS** | Quality and compliance process management system (Bizzmine) for ISO 9001/ISO 13485 audits, CAPA, and document management. | Starting at ~$289/month for small team starter deployment | 14-day full-access free trial with no credit card required |
+| **FreeQMS** | Cloud-native QMS built for medical devices, pharmaceuticals, and manufacturing quality operations. | Free forever for base modules; $10/user/month per paid module (CAPA, Audits, Complaints) | Free forever plan includes unlimited users, unlimited records, and unlimited storage for Suppliers, Customers, and Nonconformance modules |
 
 Open-Source GitHub Projects
 

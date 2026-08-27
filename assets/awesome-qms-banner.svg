@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <!-- Glowing Node Gradients -->
+    <radialGradient id="glow-teal" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glow-purple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Filter for soft neon glow -->
+    <filter id="glow-filter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Styles and Animations -->
+    <style>
+      @keyframes pulse-flow {
+        0%, 100% { stroke-dashoffset: 0; opacity: 0.8; }
+        50% { stroke-dashoffset: 40; opacity: 0.3; }
+      }
+      @keyframes rotate-ring {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes float-badge {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-6px); }
+      }
+      .circuit-line {
+        stroke: #38bdf8;
+        stroke-width: 1.5;
+        stroke-dasharray: 6 8;
+        animation: pulse-flow 6s linear infinite;
+      }
+      .gear-spin {
+        transform-origin: 1040px 180px;
+        animation: rotate-ring 24s linear infinite;
+      }
+      .badge-float-1 {
+        animation: float-badge 4s ease-in-out infinite;
+      }
+      .badge-float-2 {
+        animation: float-badge 5s ease-in-out 1s infinite;
+      }
+      .badge-float-3 {
+        animation: float-badge 4.5s ease-in-out 2s infinite;
+      }
+      .title-text {
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        letter-spacing: -0.5px;
+      }
+      .sub-text {
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" rx="16" fill="url(#bg-grad)" stroke="#1e293b" stroke-width="2" />
+
+  <!-- Background Grid Pattern -->
+  <g opacity="0.12">
+    <path d="M 0,60 L 1200,60 M 0,120 L 1200,120 M 0,180 L 1200,180 M 0,240 L 1200,240 M 0,300 L 1200,300" stroke="#94a3b8" stroke-width="1" />
+    <path d="M 120,0 L 120,360 M 240,0 L 240,360 M 360,0 L 360,360 M 480,0 L 480,360 M 600,0 L 600,360 M 720,0 L 720,360 M 840,0 L 840,360 M 960,0 L 960,360 M 1080,0 L 1080,360" stroke="#94a3b8" stroke-width="1" />
+  </g>
+
+  <!-- Ambient Glow Orbs -->
+  <circle cx="1040" cy="180" r="140" fill="url(#glow-purple)" opacity="0.3" filter="url(#glow-filter)" />
+  <circle cx="150" cy="80" r="100" fill="url(#glow-teal)" opacity="0.2" filter="url(#glow-filter)" />
+
+  <!-- Quality Process Flow Lines (Circuit / Traceability) -->
+  <path d="M 100,290 L 320,290 L 380,240 L 640,240 L 700,290 L 950,290" fill="none" class="circuit-line" />
+  <path d="M 160,70 L 340,70 L 400,120 L 750,120 L 820,70 L 1020,70" fill="none" class="circuit-line" stroke="#a855f7" />
+
+  <!-- Animated Quality Gear Graphic on Right -->
+  <g class="gear-spin" opacity="0.45">
+    <circle cx="1040" cy="180" r="85" fill="none" stroke="url(#accent-grad)" stroke-width="4" stroke-dasharray="12 12" />
+    <circle cx="1040" cy="180" r="55" fill="none" stroke="#38bdf8" stroke-width="2" />
+    <circle cx="1040" cy="180" r="25" fill="#1e1b4b" stroke="#818cf8" stroke-width="3" />
+    <!-- Quality Checkmark inside gear -->
+    <path d="M 1030,180 L 1037,188 L 1052,172" fill="none" stroke="#22c55e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Main Banner Header & Title -->
+  <g transform="translate(80, 0)">
+    <!-- Top Pill / Status Tag -->
+    <g transform="translate(0, 52)">
+      <rect width="260" height="28" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <circle cx="14" cy="14" r="5" fill="#22c55e" />
+      <text x="28" y="18" fill="#94a3b8" font-size="12" class="sub-text" font-weight="600" letter-spacing="0.5">CURATED ECOSYSTEM GUIDE</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="130" fill="#ffffff" font-size="44" class="title-text">
+      Awesome <tspan fill="url(#accent-grad)">Quality Management</tspan>
+    </text>
+    <text x="0" y="172" fill="#ffffff" font-size="36" class="title-text">
+      Systems &amp; eQMS
+    </text>
+
+    <!-- Subtitle / Tagline -->
+    <text x="0" y="212" fill="#94a3b8" font-size="15" class="sub-text">
+      Enterprise SaaS &amp; Open-Source Platforms for ISO 9001, ISO 13485, FDA 21 CFR Part 11 &amp; CAPA
+    </text>
+
+    <!-- Floating Feature Pill Badges -->
+    <g transform="translate(0, 252)">
+      <!-- Badge 1: Document Control & SOPs -->
+      <g class="badge-float-1" transform="translate(0, 0)">
+        <rect width="185" height="34" rx="8" fill="#1e1b4b" stroke="#4338ca" stroke-width="1.2" />
+        <text x="12" y="22" fill="#c7d2fe" font-size="12.5" class="sub-text" font-weight="600">📑 Document Control &amp; SOP</text>
+      </g>
+
+      <!-- Badge 2: CAPA & Audits -->
+      <g class="badge-float-2" transform="translate(197, 0)">
+        <rect width="145" height="34" rx="8" fill="#064e3b" stroke="#059669" stroke-width="1.2" />
+        <text x="12" y="22" fill="#a7f3d0" font-size="12.5" class="sub-text" font-weight="600">⚡ CAPA &amp; Audits</text>
+      </g>
+
+      <!-- Badge 3: FDA / ISO Compliance -->
+      <g class="badge-float-3" transform="translate(354, 0)">
+        <rect width="170" height="34" rx="8" fill="#3b0764" stroke="#7e22ce" stroke-width="1.2" />
+        <text x="12" y="22" fill="#e9d5ff" font-size="12.5" class="sub-text" font-weight="600">🛡️ ISO 13485 &amp; GxP</text>
+      </g>
+
+      <!-- Badge 4: Open Source & Self-Hosted -->
+      <g class="badge-float-1" transform="translate(536, 0)">
+        <rect width="175" height="34" rx="8" fill="#172554" stroke="#2563eb" stroke-width="1.2" />
+        <text x="12" y="22" fill="#bfdbfe" font-size="12.5" class="sub-text" font-weight="600">🚀 Open-Source eQMS</text>
+      </g>
+    </g>
+  </g>
+</svg>
